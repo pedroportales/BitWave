@@ -1,9 +1,8 @@
-/* Estilo para a Navbar */
 .navbar {
-    background-color: rgba(28, 28, 30, 0.8); /* Fundo escuro com transparência */
+    background-color: rgba(28, 28, 30, 0.8); 
     padding: 20px 0;
     text-align: center;
-    backdrop-filter: blur(10px); /* Adiciona um leve desfoque */
+    backdrop-filter: blur(10px); 
   }
   
   .navbar h1 {
@@ -12,15 +11,14 @@
     font-weight: bold;
   }
   
-  /* Estilo para o Container do Formulário */
   .container {
-    background-color: rgba(44, 44, 46, 0.95); /* Fundo mais escuro e opaco */
+    background-color: rgba(44, 44, 46, 0.95); 
     padding: 40px;
     max-width: 400px;
     width: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    margin: 50px auto; /* Centraliza o container */
+    margin: 50px auto; 
   }
   
   form h1 {
@@ -30,7 +28,6 @@
     text-align: center;
   }
   
-  /* Estilo para os Inputs */
   input {
     width: 100%;
     padding: 12px;
@@ -46,7 +43,6 @@
     color: #ccc;
   }
   
-  /* Estilo para o Botão */
   button {
     width: 100%;
     padding: 12px;
@@ -63,7 +59,6 @@
     background-color: #0056b3;
   }
   
-  /* Estilo para o link de cadastro com imagem */
   .signup-link {
     text-align: center;
     margin-top: 20px;
@@ -78,8 +73,6 @@
     height: 50px;
     cursor: pointer;
   }
-  
-  /* Estilo para o rodapé */
   .footer {
     text-align: center;
     padding: 20px;
@@ -91,3 +84,8 @@
     width: 100%;
   }
   
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+  }

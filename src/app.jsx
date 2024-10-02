@@ -6,8 +6,8 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Login />} /> {/* Alterado para Login */}
-                <Route path="/Cadastro" element={<Cadastro />} /> {/* Alterado o caminho do Home */}
+                <Route path="/" element={<Login />} /> 
+                <Route path="/Cadastro" element={<Cadastro />} />
             </Routes>
         </BrowserRouter>
     )
