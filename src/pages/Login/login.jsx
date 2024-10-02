@@ -1,5 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom'; // Certifique-se de que este import está aqui
 import './style.css';
-import { Link } from 'react-router-dom'; 
 
 function Login() {
   return (
@@ -14,18 +15,17 @@ function Login() {
           <input name="Senha" type="password" placeholder="Senha" />
           <button type="button">Logar</button>
         </form>
+
         <div className="signup-link">
-          <p>Não tem uma conta?</p>
-          <Link to="/cadastro">
-            <img src="/src/assets/react.svg" alt="Ir para Cadastro" />
-          </Link>
+          <p>Não tem uma conta? <a href='/Cadastro'>Registre-se </a></p>
         </div>
       </div>
       <footer className="footer">
         <p>© 2024 BitWave. Todos os direitos reservados.</p>
       </footer>
     </>
-  );
+  )
 }
+
 
 export default Login;

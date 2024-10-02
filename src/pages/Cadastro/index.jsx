@@ -1,6 +1,6 @@
 import './style.css';
 
-function Home() {
+function Cadastro() {
   return (
     <>
       <nav className="navbar">
@@ -22,4 +22,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Cadastro;
