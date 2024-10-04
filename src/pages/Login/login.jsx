@@ -6,7 +6,7 @@ function Login() {
   return (
     <>
       <nav className="navbar">
-        <h1>BitWave</h1>
+        <h1>BitWave </h1>
       </nav>
       <div className="container">
         <form>
