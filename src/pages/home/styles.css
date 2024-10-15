@@ -17,7 +17,7 @@ html {
     min-height: 100vh;
 }
 main {
-    flex: 1; /* Faz com que o main ocupe o espaço disponível */
+    flex: 1;
 }
 
 .navbar {
@@ -136,7 +136,7 @@ hr {
 }
 
 .courses-section h2 {
-    margin-bottom: 40px; /* Aumenta o espaçamento */
+    margin-bottom: 40px;
 }
 
 
@@ -171,7 +171,7 @@ hr {
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Espaçar os elementos para que não fiquem sobrepostos */
+    justify-content: space-between; 
     align-items: center;
     border-radius: 10px;
     padding: 20px;
@@ -185,16 +185,16 @@ hr {
     background: linear-gradient(180deg, #2c2c54 0%, #232347 50%, #1b1b3a 100%);
     transform: rotateY(180deg);
     color: white;
-    overflow-y: auto;  /* Mantém a rolagem vertical */
-    overflow-x: hidden; /* Remove a rolagem lateral */
+    overflow-y: auto;
+    overflow-x: hidden;
     text-align: justify;
 }
 
 .coverBack h1 {
-    font-size: 1.2rem; /* Ajustando tamanho da fonte do título */
-    margin-bottom: 10px; /* Espaçamento entre título e descrição */
-    text-align: center; /* Centralizar o título */
-    color: white; /* Garantindo que o título seja branco */
+    font-size: 1.2rem; 
+    margin-bottom: 10px; 
+    text-align: center;
+    color: white; 
 }
 
 .coverBack p {
@@ -202,10 +202,10 @@ hr {
     margin-bottom: 15px;
     text-align: justify;
     color: white;
-    word-wrap: break-word; /* Quebra o texto longo em palavras, prevenindo transbordo */
+    word-wrap: break-word; /
 }
 .sh_btn {
-    margin-top: 10px; /* Adiciona espaço antes do botão */
+    margin-top: 10px; 
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -227,7 +227,7 @@ hr {
 
 
 .coverBack h1, .coverBack p {
-    color: rgb(255, 255, 255); /* Ajusta a cor do texto no verso do card */
+    color: rgb(255, 255, 255);
 }
 
 .footer {
@@ -236,6 +236,6 @@ hr {
     background-color: #232347;
     color: white;
     padding: 20px 0;
-    position: relative; /* Remover qualquer tipo de fixação */
-    bottom: 0; /* Não necessário se não for fixo */
+    position: relative; 
+    bottom: 0; 
 }

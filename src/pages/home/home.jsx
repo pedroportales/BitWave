@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importe o Link
+import { Link } from 'react-router-dom'; 
 import './styles.css';
 
 const CourseCard = ({ title, description, image }) => {
@@ -16,7 +16,7 @@ const CourseCard = ({ title, description, image }) => {
                     <div style={{ padding: '20px', textAlign: 'center', fontSize: '12px' }}>
                         <h1>{title}</h1>
                         <p>{description}</p>
-                        <Link to="/Login"> {/* Alterado para Link */}
+                        <Link to="/Login">
                             <button className="sh_btn">Inscreva-se</button>
                         </Link>
                     </div>
@@ -35,10 +35,10 @@ function Home() {
                     <ul>
                         <li><a href="#home">Início</a></li>
                         <li><a href="#courses">Nossos Cursos</a></li>
-                        <li><a href="mailto:contatobitwavecursos@gmail.com">Contato</a></li> {/* Link para o email */}
+                        <li><a href="mailto:contatobitwavecursos@gmail.com">Contato</a></li> 
                     </ul>
                 </nav>
-                <Link to="/Login"> {/* Alterado para Link */}
+                <Link to="/Login"> 
                     <button className="get-started-btn">Começar</button>
                 </Link>
             </header>
@@ -80,9 +80,9 @@ function Home() {
                     </div>
                 </section>
             </main>
-            <footer className="footer" id="contact">
+            {/* <footer className="footer" id="contact">
                 <p>&copy; 2024 BitWave. Todos os direitos reservados.</p>
-            </footer>
+            </footer> */}
         </div>
     );
 }
