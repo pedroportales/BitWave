@@ -1,8 +1,21 @@
+/* CSS atualizado */
+
+body, html {
+  margin: 0;
+  height: 100%; /* Certifique-se de que o HTML e o Body ocupem toda a altura */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Faz o contêiner ocupar pelo menos toda a altura da tela */
+}
+
 .navbar {
-  background-color: rgba(28, 28, 30, 0.8); 
+  background-color: rgba(28, 28, 30, 0.8);
   padding: 20px 0;
   text-align: center;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
 }
 
 .navbar h1 {
@@ -12,12 +25,22 @@
 }
 
 .container {
-  background-color: rgba(44, 44, 46, 0.95); 
+  background-color: rgba(44, 44, 46, 0.95);
   padding: 40px;
   max-width: 400px;
-  margin: 50px auto; 
+  margin: 50px auto;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  flex: 1; /* Faz o contêiner do formulário ocupar o espaço restante */
+  display: flex; /* Adicionado para organizar o layout */
+  flex-direction: column; /* Organiza os filhos na coluna */
+  justify-content: space-between; /* Espaça os filhos uniformemente */
+}
+
+form {
+  flex: 1; /* Faz o formulário ocupar o espaço disponível no contêiner */
+  display: flex; /* Flexbox para organizar o conteúdo do formulário */
+  flex-direction: column; /* Organiza os campos do formulário em coluna */
 }
 
 form h1 {
@@ -52,6 +75,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 20px; /* Adiciona um espaço acima do botão */
 }
 
 button:hover {
@@ -59,34 +83,31 @@ button:hover {
 }
 
 .footer {
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(28, 28, 30, 0.9);
-  color: #fff;
-  font-size: 14px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  text-align: center;
+  background-color: #232347;
+  color: white;
+  padding: 20px 0;
 }
 
 .terms {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   margin-bottom: 15px;
   font-size: 14px;
   color: #ccc;
 }
 
 .terms input[type="checkbox"] {
-  margin-right: 10px; 
-  margin-top: 3px; 
+  margin-right: 10px;
+  margin-top: 3px;
 }
 
 .terms label {
-  display: inli; 
+  display: inline;
   color: #ccc;
-  max-width: calc(100% - 40px); 
-  word-wrap: break-word; 
+  max-width: calc(100% - 40px);
+  word-wrap: break-word;
 }
 
 .terms a {
@@ -98,4 +119,3 @@ button:hover {
 .terms a:hover {
   text-decoration: underline;
 }
-

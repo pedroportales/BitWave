@@ -4,9 +4,9 @@ import './style.css';
 
 function Login() {
   return (
-    <>
+    <div className="app-container"> {/* Container para envolver todo o conteúdo */}
       <nav className="navbar">
-        <h1>BitWave </h1>
+        <h1>BitWave</h1>
       </nav>
       <div className="container">
         <form>
@@ -17,15 +17,14 @@ function Login() {
         </form>
 
         <div className="signup-link">
-          <p>Não tem uma conta? <a href='/Cadastro'>Registre-se </a></p>
+          <p>Não tem uma conta? <Link to='/Cadastro'>Registre-se</Link></p>
         </div>
       </div>
       <footer className="footer">
         <p>© 2024 BitWave. Todos os direitos reservados.</p>
       </footer>
-    </>
-  )
+    </div>
+  );
 }
-
 
 export default Login;
