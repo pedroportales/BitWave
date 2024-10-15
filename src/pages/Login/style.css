@@ -1,6 +1,6 @@
 body, html {
   margin: 0;
-  height: 100%; /* Certifique-se de que o HTML e o Body ocupem toda a altura */
+  height: 100%;
 }
 
 .navbar {
@@ -19,26 +19,27 @@ body, html {
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Faz o contêiner ocupar pelo menos toda a altura da tela */
+  min-height: 100vh;
 }
 
 .container {
   background-color: rgba(44, 44, 46, 0.95); 
-  padding: 20px; /* Mantido para diminuir a altura total */
+  padding: 20px;
   max-width: 300px; 
+  max-height: 400px;
   width: 100%; 
   border-radius: 8px; 
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
-  margin: 0 auto; /* Removido o margin-top para evitar o empurrão no footer */
-  flex: 1; /* Permitir que o contêiner do formulário ocupe espaço restante */
-  display: flex; /* Mantido para organizar o layout */
-  flex-direction: column; /* Organiza os filhos na coluna */
-  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  margin: 0 auto; 
+  flex: 1; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
 }
 
 form {
-  display: flex; /* Flexbox para organizar o conteúdo do formulário */
-  flex-direction: column; /* Organiza os campos do formulário em coluna */
+  display: flex; 
+  flex-direction: column;
 }
   
 form h1 {
@@ -73,7 +74,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 20px; /* Adiciona um espaço acima do botão */
+  margin-top: 20px; 
 }
   
 button:hover {
@@ -95,17 +96,6 @@ button:hover {
   cursor: pointer;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(28, 28, 30, 0.9);
-  color: #fff;
-  font-size: 14px;
-  position: fixed; /* Fixar o footer */
-  bottom: 0; /* Colocar na parte inferior */
-  width: 100%; /* Ocupa toda a largura da página */
-}
-  
 a {
   text-decoration: none;
   cursor: pointer;
