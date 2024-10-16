@@ -25,22 +25,30 @@ function Cadastro() {
       </nav>
       <div className="container">
         <form onSubmit={handleSubmit}>
-          <h1>Cadastro de Usuário</h1>
+          <div className='row mt-3'>
+              <h1>Cadastro de Usuário</h1>
+          </div>
           <input name="Nome" type="text" placeholder="Nome" required />
           <input name="Email" type="email" placeholder="Email" required />
           <input name="Senha" type="password" placeholder="Senha" required />
 
           <div className="terms">
-            <input
-              type="checkbox"
-              id="terms"
-              name="terms"
-              checked={acceptTerms}
-              onChange={handleCheckboxChange}
-            />
-            <label htmlFor="terms">
-              Ao se inscrever, você concorda com nossos <a href="#">Termos de Uso</a> e com a <a href="#">Política de Privacidade</a>.
-            </label>
+            <div className='row mt-3'>
+              <div className='col-2 mt-4'>
+                <input
+                  type="checkbox"
+                  id="terms"
+                  name="terms"
+                  checked={acceptTerms}
+                  onChange={handleCheckboxChange}
+                />
+              </div>
+              <div className='col-9'>
+                <label htmlFor="terms">
+                  Ao se inscrever, você concorda com nossos <a href="#">Termos de Uso</a> e com a <a href="#">Política de Privacidade</a>.
+                </label>
+              </div>
+            </div>
           </div>
           <button type="submit">Cadastrar</button>
         </form>
