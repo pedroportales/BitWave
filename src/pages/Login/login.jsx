@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 import './style.css';
 
 function Login() {
@@ -20,6 +20,11 @@ function Login() {
           <p>Não tem uma conta? <Link to='/Cadastro'>Registre-se</Link></p>
         </div>
       </div>
+      <footer className="footer">
+        <div className='row mt-3'>
+          <p>© 2024 BitWave. Todos os direitos reservados.</p>
+        </div>
+      </footer>
     </div>
   );
 }

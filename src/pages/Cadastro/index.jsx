@@ -26,7 +26,7 @@ function Cadastro() {
       <div className="container">
         <form onSubmit={handleSubmit}>
           <div className='row mt-3'>
-              <h1>Cadastro de Usuário</h1>
+            <h1>Cadastro de Usuário</h1>
           </div>
           <input name="Nome" type="text" placeholder="Nome" required />
           <input name="Email" type="email" placeholder="Email" required />
@@ -54,7 +54,9 @@ function Cadastro() {
         </form>
       </div>
       <footer className="footer">
-        <p>© 2024 BitWave. Todos os direitos reservados.</p>
+        <div className='row mt-3'>
+          <p>© 2024 BitWave. Todos os direitos reservados.</p>
+        </div>
       </footer>
     </div>
   );
