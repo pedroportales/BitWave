@@ -80,6 +80,7 @@ function Home() {
                     </div>
                 </section>
             </main>
+            <br />
             <footer className="footer">
                 <div className='row mt-3'>
                     <p>© 2024 BitWave. Todos os direitos reservados.</p>

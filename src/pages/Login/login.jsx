@@ -6,7 +6,9 @@ function Login() {
   return (
     <div className="app-container">
       <nav className="navbar">
-        <h1>BitWave</h1>
+        <div className='row mt-2'>
+          <h1>BitWave</h1>
+        </div>
       </nav>
       <div className="container">
         <form>
@@ -20,6 +22,7 @@ function Login() {
           <p>Não tem uma conta? <Link to='/Cadastro'>Registre-se</Link></p>
         </div>
       </div>
+      <br />
       <footer className="footer">
         <div className='row mt-3'>
           <p>© 2024 BitWave. Todos os direitos reservados.</p>

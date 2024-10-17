@@ -21,7 +21,9 @@ function Cadastro() {
   return (
     <div className="app-container">
       <nav className="navbar">
-        <h1>BitWave</h1>
+        <div className='row mt-2'>
+          <h1>BitWave</h1>
+        </div>
       </nav>
       <div className="container">
         <form onSubmit={handleSubmit}>
@@ -53,6 +55,7 @@ function Cadastro() {
           <button type="submit">Cadastrar</button>
         </form>
       </div>
+      <br />
       <footer className="footer">
         <div className='row mt-3'>
           <p>© 2024 BitWave. Todos os direitos reservados.</p>
